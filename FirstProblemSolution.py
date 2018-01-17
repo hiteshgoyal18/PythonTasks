@@ -1,6 +1,7 @@
 import json
 data=json.load(open('data.json'))
 
+// recursive function
 def recFunc(data):
     for key in data.keys():
         if(type(data[key])==dict):
