@@ -4,7 +4,7 @@ Problem :-
 
 Write a custom random number generation algo which should be 73% biased to the higher number. Like if I want ‘a random number between 1 to 10’ 100 times then it should give ‘number more than 5’ 73 times and ‘less than 5’ 27 times. You’re not allowed to use any predefined random number generation function nor use of any kind of third party library to generate random number.
 
-Explanation :- 
+Explanation - >
 
 In Random Number Generator Algo, LCG linear congruential generator (LCG) is used which is defined by recurrence relation.
 The initial condition (or seed values which are very important in generating random numbers) are 0 and 10 here. 
