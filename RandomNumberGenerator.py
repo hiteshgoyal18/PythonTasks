@@ -45,7 +45,7 @@ def generate(modulus, increment):
 maxlist=[]
 minlist=[]
 m=10
-i=0
+i=1
 loop=True
 times=100
 while loop:
